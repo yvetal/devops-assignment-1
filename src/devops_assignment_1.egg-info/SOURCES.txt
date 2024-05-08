@@ -6,5 +6,5 @@ src/devops_assignment_1.egg-info/SOURCES.txt
 src/devops_assignment_1.egg-info/dependency_links.txt
 src/devops_assignment_1.egg-info/top_level.txt
 src/module1/file1.py
-src/module2/file2.py
+src/module1/file2.py
 src/module2/file3.py
