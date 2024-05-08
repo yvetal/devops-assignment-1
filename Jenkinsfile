@@ -3,10 +3,13 @@ pipeline {
         label 'local'
     }
     stages {
-        stage('Test') {
+        stage('Build') {
             steps {
-                sh "python3 --version"
+                sh "python3 -m build"
             }
+        }
+        stage('Archive') {
+            artifacts: 'dist/**/*'
         }
     }
 }
