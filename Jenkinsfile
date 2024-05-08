@@ -9,7 +9,7 @@ pipeline {
             }
         }
         stage('Archive') {
-            artifacts: 'dist/**/*'
+            archiveArtifacts artifacts: 'dist/**/*'
         }
     }
 }
